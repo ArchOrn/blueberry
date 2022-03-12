@@ -42,7 +42,6 @@ class BlueberryDevice {
     return Blueberry._channel.invokeMethod('send', {
       'id': address,
       'bytes': bytes,
-      'length': bytes.length,
     });
   }
 
